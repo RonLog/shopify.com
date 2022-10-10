@@ -127,11 +127,14 @@ header {
 
 .motto {
     flex: 1.5;
+    margin: 12px 10px;
+
 }
 
 .search {
     flex: 100%;
     text-align: center;
+    padding:15px;
 }
 
 section {
