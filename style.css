@@ -161,6 +161,9 @@ section {
 .sectleft img{
     margin:5px;
 }
+.sectleft p {
+    color: gray;
+}
 
 .sectleftone {
     display: flex;
