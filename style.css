@@ -248,6 +248,9 @@ section {
     text-decoration: none;
     color:black;
 }
+.sectionright ul li:nth-child(2){
+    padding: 10px 0px;
+}
 .sectright ul li:first-child:hover{
     text-decoration: underline;
 }
