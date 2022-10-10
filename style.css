@@ -164,6 +164,10 @@ section {
     flex-wrap: wrap;
     justify-content: center;
 }
+.sectimg{
+    display: flex;
+    flex-direction: column;
+}
 
 .sectleft p {
     color: gray;
