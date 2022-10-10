@@ -9,6 +9,11 @@ header {
     background-color: rgb(0, 46, 37);
 }
 
+header label,
+header input {
+    display: none;
+}
+
 .nav {
     flex: 1.7;
 }
@@ -134,12 +139,12 @@ header {
 .search {
     flex: 100%;
     text-align: center;
-    padding:15px;
+    padding: 15px;
 }
 
 section {
     display: flex;
-    width:90%;
+    width: 90%;
     justify-content: center;
     margin: 50px auto;
 }
@@ -147,9 +152,10 @@ section {
 .sectionleft {
     display: flex;
     flex-direction: column;
-    flex:0 1 60%;
+    flex: 0 1 60%;
 }
-.sectionleft h4{
+
+.sectionleft h4 {
     border-bottom: 1px solid gray;
 }
 
@@ -158,11 +164,13 @@ section {
     flex-wrap: wrap;
     justify-content: center;
 }
-.sectleft p{
+
+.sectleft p {
     color: gray;
 }
-.sectleft img{
-    margin:5px;
+
+.sectleft img {
+    margin: 5px;
 }
 
 .sectleftone {
@@ -182,6 +190,7 @@ section {
     color: rgb(0, 46, 37);
     font-weight: bolder;
 }
+
 .sectleftone .sectleft1 p {
     color: gray;
 }
@@ -193,8 +202,9 @@ section {
 .sectlbrowse ul a {
     color: rgb(0, 128, 96);
 }
-.sectlbrowse ul li{
-    margin:15px 0px;
+
+.sectlbrowse ul li {
+    margin: 15px 0px;
 }
 
 .sectionleft ul li a:hover {
@@ -202,36 +212,41 @@ section {
 }
 
 
-.sectionright{
+.sectionright {
     display: flex;
-    flex:0 1 10%;
+    flex: 0 1 10%;
     flex-direction: column;
 }
-.sectright{
+
+.sectright {
     display: flex;
     flex-direction: column;
 }
-.align{
+
+.align {
     text-align: center;
     background-color: rgb(0, 46, 37);
-    color:white; 
+    color: white;
 }
-.align img{
+
+.align img {
     margin-left: 160px;
 }
-.update{
+
+.update {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .update input[type='text'] {
     width: 90%;
     height: 50px;
     border: none;
     border-radius: 5px;
     outline-color: rgb(0, 128, 96);
-    margin-bottom: 15px;      
- }
+    margin-bottom: 15px;
+}
 
 .update input[type='button'] {
     width: 340px;
@@ -249,26 +264,33 @@ section {
     background-color: rgb(0, 46, 37);
     cursor: pointer;
 }
-.sectright ul{
+
+.sectright ul {
     list-style: none;
     border-bottom: 1px solid gray;
 }
-.sectright ul li a{
+
+.sectright ul li a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
-.sectright ul li:nth-child(2){
+
+.sectright ul li:nth-child(2) {
     padding: 10px 0px;
 }
-.sectright ul li:first-child{
+
+.sectright ul li:first-child {
     font-weight: bold;
 }
-.sectright ul li:first-child:hover{
+
+.sectright ul li:first-child:hover {
     text-decoration: underline;
 }
-#green a{
+
+#green a {
     color: rgb(0, 128, 96);
 }
+
 .email {
     background-color: white;
     margin: 20px;
@@ -280,7 +302,7 @@ section {
 .email input[type='text'] {
     width: 60%;
     height: 50px;
-    border:1px solid black;
+    border: 1px solid black;
     border-radius: 5px;
     outline-color: rgb(0, 128, 96);
 }
@@ -364,7 +386,29 @@ footer {
 
 @media all and (max-width:800px) {
     header {
-        justify-content: center;
+        justify-content: space-between;
+    }
+
+    header label {
+        display: block;
+    }
+
+    header label::before {
+        content: "\2261";
+        font-size: 40px;
+        color: white;
+    }
+
+    header input:checked+label::before {
+        content: "\00d7";
+    }
+
+    .nav {
+        display: none;
+    }
+
+    header input:checked~.nav {
+        display: block;
     }
 
     .title {
@@ -417,8 +461,9 @@ footer {
         font-size: small;
         width: auto;
     }
-    section{
-        display:flex;
+
+    section {
+        display: flex;
         flex-direction: column;
     }
 }
