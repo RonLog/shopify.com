@@ -158,11 +158,11 @@ section {
     flex-wrap: wrap;
     justify-content: center;
 }
+.sectleft p{
+    color: gray;
+}
 .sectleft img{
     margin:5px;
-}
-.sectleft p {
-    color: gray;
 }
 
 .sectleftone {
@@ -181,6 +181,9 @@ section {
 .sectleftone .sectleft1 h3 {
     color: rgb(0, 46, 37);
     font-weight: bolder;
+}
+.sectleftone .sectleft1 p {
+    color: gray;
 }
 
 .sectlbrowse ul {
@@ -256,6 +259,9 @@ section {
 }
 .sectright ul li:nth-child(2){
     padding: 10px 0px;
+}
+.sectright ul li:first-child{
+    font-weight: bold;
 }
 .sectright ul li:first-child:hover{
     text-decoration: underline;
