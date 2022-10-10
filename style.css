@@ -280,7 +280,7 @@ section {
 .email input[type='text'] {
     width: 60%;
     height: 50px;
-    border: none;
+    border:1px solid black;
     border-radius: 5px;
     outline-color: rgb(0, 128, 96);
 }
