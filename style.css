@@ -187,6 +187,9 @@ section {
 .sectlbrowse ul a {
     color: rgb(0, 128, 96);
 }
+.sectlbrowse ul li{
+    margin:15px 0px;
+}
 
 .sectionleft ul li a:hover {
     text-decoration: none;
