@@ -3,6 +3,7 @@ var filesToCache = [
     './',
     './index.html',
     './style.css',
+    './js/main.js',
     './img',
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css',
 ];
