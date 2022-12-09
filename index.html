@@ -1,509 +1,835 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopify</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./img/shopify-favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./img/shopify-favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-<body>
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="icon" href="shopify-icon-48x48.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./img/icon-152x152.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="white" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Shopify" />
+    <meta name="msapplication-TileImage" content="./img/icon-144x144.png" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+  </head>
+
+  <body>
     <div class="wrapper">
-        <header>
-            <div class="logo">
-                <img src="./img/shopify.png" alt="">
-            </div>
-            <input type="checkbox" name="" id="responsive_menu">
-            <label for="responsive_menu"></label>
-            <div class="nav">
-                <ul>
+      <header>
+        <div class="logo">
+          <img src="./img/shopify.png" alt="" />
+        </div>
+        <input type="checkbox" name="" id="responsive_menu" />
+        <label for="responsive_menu"></label>
+        <div class="nav">
+          <ul>
+            <li>
+              <a href="">Start&nbsp;˅</a>
+              <ul>
+                <li>Start your business&nbsp;˃</li>
+                <li id="subul">
+                  Branding&nbsp;˃
+                  <ul>
                     <li>
-                        <a href="">Start&nbsp;˅</a>
-                        <ul>
-                            <li>Start your business&nbsp;˃</li>
-                            <li id="subul">Branding&nbsp;˃
-                                <ul>
-                                    <li>Look professional and help customers connect with your business</li>
-                                    <li>Business name generator</li>
-                                    <li>Logo maker</li>
-                                </ul>
-                            </li>
-                            <li id="subul">Online presence&nbsp;˃
-                                <ul>
-                                    <li>Find a domain, explore stock images, and amplify your brand</li>
-                                    <li>Domain name</li>
-                                    <li>Stock photography</li>
-                                </ul>
-                            </li>
-                            <li id="subul">Store set up&nbsp;˃
-                                <ul>
-                                    <li>Use Shopify’s powerful features to start selling</li>
-                                    <li>Website Builder</li>
-                                    <li>Store themes</li>
-                                </ul>
-                            </li>
-                        </ul>
+                      Look professional and help customers connect with your
+                      business
                     </li>
+                    <li>Business name generator</li>
+                    <li>Logo maker</li>
+                  </ul>
+                </li>
+                <li id="subul">
+                  Online presence&nbsp;˃
+                  <ul>
                     <li>
-                        <a href="">Sell&nbsp;˅</a>
-                        <ul>
-                            <li id="subul">Sell everywhere&nbsp;˃
-                                <ul>
-                                    <li>Sell online with an ecommerce website</li>
-                                    <li>Overview</li>
-                                    <li>Examples</li>
-                                    <li>Themes</li>
-                                </ul>
-                            </li>
-                            <li id="subul">Online store&nbsp;˃
-                                <ul>
-                                    <li>Sell at retail locations, pop-ups, and beyond
-                                        Point of Sale Overview</li>
-                                    <li>Features</li>
-                                    <li>Pricing</li>
-                                    <li>Buy Button</li>
-                                    <li>Checkout</li>
-                                </ul>
-                            </li>
-                            <li id="subul">Point of Sale&nbsp;˃
-                                <ul>
-                                    <li>Transform an existing website or blog into an online store</li>
-                                    <li>Overview</li>
-                                </ul>
-                            </li>
-                            <li id="subul">Buy Button&nbsp;˃
-                                <ul>
-                                    <li>Transform an existing website or blog into an online store</li>
-                                    <li>Overview</li>
-                                </ul>
-                            </li>
-                            <li id="subul">Checkout&nbsp;˃
-                                <ul>
-                                    <li>Provide fast, smooth checkout experiences</li>
-                                    <li>Overview</li>
-                                </ul>
-                            </li>
-                            <li id="subul">Sales channels&nbsp;˃
-                                <ul>
-                                    <li>Reach millions of shoppers and boost sales</li>
-                                    <li>Overview</li>
-                                    <li>Facebook and Instagram</li>
-                                    <li>Google</li>
-                                    <li>YouTube</li>
-                                </ul>
-                            </li>
-                            <li id="subul">Custom storefront tools&nbsp;˃
-                                <ul>
-                                    <li>Stand out with custom commerce</li>
-                                    <li>Overview</li>
-                                </ul>
-                            </li>
-                            <li id="subul">International commerce&nbsp;˃
-                                <ul>
-                                    <li>Reach buyers in new markets with international selling tools</li>
-                                    <li>Overview</li>
-                                </ul>
-                            </li>
-                        </ul>
+                      Find a domain, explore stock images, and amplify your
+                      brand
                     </li>
+                    <li>Domain name</li>
+                    <li>Stock photography</li>
+                  </ul>
+                </li>
+                <li id="subul">
+                  Store set up&nbsp;˃
+                  <ul>
+                    <li>Use Shopify’s powerful features to start selling</li>
+                    <li>Website Builder</li>
+                    <li>Store themes</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="">Sell&nbsp;˅</a>
+              <ul>
+                <li id="subul">
+                  Sell everywhere&nbsp;˃
+                  <ul>
+                    <li>Sell online with an ecommerce website</li>
+                    <li>Overview</li>
+                    <li>Examples</li>
+                    <li>Themes</li>
+                  </ul>
+                </li>
+                <li id="subul">
+                  Online store&nbsp;˃
+                  <ul>
                     <li>
-                        <a href="">Market&nbsp;˅</a>
-                        <ul>
-                            <li>Market your business</li>
-                            <li>Email marketing</li>
-                            <li>Marketing automation</li>
-                            <li>Customer groups</li>
-                            <li>Business chat</li>
-                            <li>Facebook Ads</li>
-                        </ul>
+                      Sell at retail locations, pop-ups, and beyond Point of
+                      Sale Overview
                     </li>
+                    <li>Features</li>
+                    <li>Pricing</li>
+                    <li>Buy Button</li>
+                    <li>Checkout</li>
+                  </ul>
+                </li>
+                <li id="subul">
+                  Point of Sale&nbsp;˃
+                  <ul>
                     <li>
-                        <a href="">Manage&nbsp;˅</a>
-                        <ul>
-                            <li>Manage everything</li>
-                            <li>Ecommerce automation</li>
-                        </ul>
+                      Transform an existing website or blog into an online store
                     </li>
-                </ul>
-            </div>
-            <div class="nav nav-two">
-                <ul>
-                    <li><a href="">Pricing</a></li>
+                    <li>Overview</li>
+                  </ul>
+                </li>
+                <li id="subul">
+                  Buy Button&nbsp;˃
+                  <ul>
                     <li>
-                        <a href="">Learn&nbsp;˅</a>
-                        <ul>
-                            <li>Help Center</li>
-                            <li id="subul">Blog&nbsp;˃
-                                <ul>
-                                    <li>Merchant Blog</li>
-                                    <li>Retail Blog</li>
-                                    <li>Enterprise Blog</li>
-                                </ul>
-                            </li>
-                            <li>Business Courses</li>
-                            <li>Guides</li>
-                            <li>Shopify Community</li>
-                            <li>Free tools</li>
-                            <li>Podcasts</li>
-                            <li>Business encyclopedia</li>
-                            <li>Community Events</li>
-                            <li>Research</li>
-                        </ul>
+                      Transform an existing website or blog into an online store
                     </li>
-                    <li><a href="">Log in</a></li>
-                    <button>Start free trial</button>
-                </ul>
-            </div>
-        </header>
+                    <li>Overview</li>
+                  </ul>
+                </li>
+                <li id="subul">
+                  Checkout&nbsp;˃
+                  <ul>
+                    <li>Provide fast, smooth checkout experiences</li>
+                    <li>Overview</li>
+                  </ul>
+                </li>
+                <li id="subul">
+                  Sales channels&nbsp;˃
+                  <ul>
+                    <li>Reach millions of shoppers and boost sales</li>
+                    <li>Overview</li>
+                    <li>Facebook and Instagram</li>
+                    <li>Google</li>
+                    <li>YouTube</li>
+                  </ul>
+                </li>
+                <li id="subul">
+                  Custom storefront tools&nbsp;˃
+                  <ul>
+                    <li>Stand out with custom commerce</li>
+                    <li>Overview</li>
+                  </ul>
+                </li>
+                <li id="subul">
+                  International commerce&nbsp;˃
+                  <ul>
+                    <li>
+                      Reach buyers in new markets with international selling
+                      tools
+                    </li>
+                    <li>Overview</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="">Market&nbsp;˅</a>
+              <ul>
+                <li>Market your business</li>
+                <li>Email marketing</li>
+                <li>Marketing automation</li>
+                <li>Customer groups</li>
+                <li>Business chat</li>
+                <li>Facebook Ads</li>
+              </ul>
+            </li>
+            <li>
+              <a href="">Manage&nbsp;˅</a>
+              <ul>
+                <li>Manage everything</li>
+                <li>Ecommerce automation</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="nav nav-two">
+          <ul>
+            <li><a href="">Pricing</a></li>
+            <li>
+              <a href="">Learn&nbsp;˅</a>
+              <ul>
+                <li>Help Center</li>
+                <li id="subul">
+                  Blog&nbsp;˃
+                  <ul>
+                    <li>Merchant Blog</li>
+                    <li>Retail Blog</li>
+                    <li>Enterprise Blog</li>
+                  </ul>
+                </li>
+                <li>Business Courses</li>
+                <li>Guides</li>
+                <li>Shopify Community</li>
+                <li>Free tools</li>
+                <li>Podcasts</li>
+                <li>Business encyclopedia</li>
+                <li>Community Events</li>
+                <li>Research</li>
+              </ul>
+            </li>
+            <li><a href="">Log in</a></li>
+            <button>Start free trial</button>
+          </ul>
+        </div>
+      </header>
 
-        <div class="title">
-            <div class="heading">
-                <h1>Business encyclopedia</h1>
-            </div>
-            <div class="motto">
-                <h3>Learn everything there is to know about running a business</h3>
-            </div>
-            <div class="search">
-                <input type="text" name="searchbox" id="searchbox" placeholder="
+      <div class="title">
+        <div class="heading">
+          <h1>Business encyclopedia</h1>
+        </div>
+        <div class="motto">
+          <h3>Learn everything there is to know about running a business</h3>
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            name="searchbox"
+            id="searchbox"
+            placeholder="
             ex. gross profit, entrepreneurship, etc.
-            ">
-                <input type="button" value="Search">
-            </div>
+            "
+          />
+          <input type="button" value="Search" />
         </div>
+      </div>
 
-        <section>
-            <div class="sectionleft">
-                <div class="sectleft">
-                    <p>Use the topic list below to navigate Shopify’s business encyclopedia. From retail and enterprise
-                        to branding and entrepreneurship, you’ll find everything you need to know about building a
-                        successful business. If you can’t find the topic you’re looking for, use the search bar above
-                        for a list of relevant articles.</p>
-                </div>
-                <h4>POPULAR</h4>
-                <div class="sectleft">
-
-                    <div class="">
-                        <img src="./img/shopifyretail.png" alt="">
-                    </div>
-                    <div class="sectimg">
-                        <img src="./img/shopifymechandise.png" alt="">
-                        <img src="./img/shopifyentreprenurship.png" alt="">
-                    </div>
-
-                </div>
-                <div class="sectleft">
-                    <img src="./img/shopifysole.png" alt="">
-                    <img src="./img/shopifyinventory.png" alt="">
-                    <img src="./img/shopifybranding.png" alt="">
-                </div>
-                <h4>FEATURED</h4>
-                <div class="sectleft">
-                    <div class="sectleftone">
-                        <div class="sectleft1">
-                            <h3>Enterprise Resource Planning (ERP)</h3>
-                            <p>ERP is a comprehensive software platform used to help a business run more efficiently and
-                                effectively by automating core processes.</p>
-                        </div>
-                        <div class="sectleft1">
-                            <h3>Business License</h3>
-                            <p>A business license grants the owner the right to start and run a business.</p>
-                        </div>
-                        <div class="sectleft1">
-                            <h3>Stock Keeping Unit (SKU)</h3>
-                            <p>A SKU is a unique code consisting of letters and numbers that identify characteristics
-                                about
-                                each product.</p>
-                        </div>
-                    </div>
-                    <div class="sectleftone">
-                        <div class="sectleft1">
-                            <h3> Unique Selling Proposition (USP)</h3>
-                            <p> A unique selling proposition, more commonly referred to as a USP, is the one thing that
-                                makes
-                                your business better than the competition.</p>
-                        </div>
-                        <div class="sectleft1">
-                            <h3>Manufacturing</h3>
-                            <p>Manufacturing is the making of goods by hand or by machine that upon completion the
-                                business
-                                sells to a customer.</p>
-                        </div>
-                        <div class="sectleft1">
-                            <h3>Crowdfunding</h3>
-                            <p>Crowdfunding is the process of raising money for a business, project, or charitable cause
-                                from
-                                many individual donors – the crowd.</p>
-                        </div>
-                    </div>
-                </div>
-                <h4>BROWSE MORE POPULAR TOPICS</h4>
-                <div class="sectleft">
-                    <div class="sectlbrowse">
-                        <ul>
-                            <li><a href="AnchorStore" target="_blank">Anchor Store</a></li>
-                            <li><a href="BarriertoEntry" target="_blank">Barrier to Entry</a></li>
-                            <li><a href="BrandEquity" target="_blank">Brand Equity</a></li>
-                            <li><a href="Branding" target="_blank">Branding</a></li>
-                            <li><a href="BusinessOperations" target="_blank">Business Operations</a></li>
-                            <li><a href="BusinessProposal" target="_blank">Busines sProposal</a></li>
-                            <li><a href="CashFlowStatement" target="_blank">Cas Flow Statement</a></li>
-                            <li><a href="CompetitiveAnalysis" target="_blank">Competitive Analysis</a></li>
-                            <li><a href="ConversationalCommerce" target="_blank">Conversational Commerce</a></li>
-                            <li><a href="DirectMarketing" target="_blank">Direct Marketing</a></li>
-                            <li><a href="DistributionChannel" target="_blank">DistributionChannel</a></li>
-                            <li><a href="DoingBusinessAs(DBA)" target="_blank">Doing Business As(DBA)</a></li>
-                            <li><a href="EmployerIdentificationNumber(EIN)"
-                                    target="_blank">Employer Identification Number(EIN)</a></li>
-                            <li><a href="EnterpriseResourcePlanning(ERP)"
-                                    target="_blank">Enterprise Resource Planning(ERP)</a></li>
-                            <li><a href="FOBShippingPoint" target="_blank">FOB Shipping Point</a></li>
-                            <li><a href="GreenMarketing" target="_blank">Green Marketing</a></li>
-                            <li><a href="GrossProfit" target="_blank">Gross Profit</a></li>
-                        </ul>
-                    </div>
-                    <div class="sectlbrowse">
-                        <ul>
-                            <li><a href="HumanResources(HR)" target="_blank">Human Resources(HR)</a></li>
-                            <li><a href="InventoryTurnover" target="_blank">Inventory Turn over</a></li>
-                            <li><a href="LimitedLiabilityCompany(LLC)" target="_blank">Limited Liability Company(LLC)</a>
-                            </li>
-                            <li><a href="Logistics" target="_blank">Logistics</a></li>
-                            <li><a href="Manufacturing" target="_blank">Manufacturing</a></li>
-                            <li><a href="MarginalCost" target="_blank">Marginal Cost</a></li>
-                            <li><a href="MarketResearch" target="_blank">Market Research</a></li>
-                            <li><a href="MarketSegmentation" target="_blank">Market Segmentation</a></li>
-                            <li><a href="Merchandising" target="_blank">Merchandising</a></li>
-                            <li><a href="NicheMarket" target="_blank">Niche Market</a></li>
-                            <li><a href="Odd-EvenPricing" target="_blank">Odd-Even Pricing</a></li>
-                            <li><a href="OperatingExpenses" target="_blank">Operating Expenses</a></li>
-                            <li><a href="OpportunityCost" target="_blank">Opportunity Cost</a></li>
-                            <li><a href="OutdoorAdvertising" target="_blank">Outdoor Advertising</a></li>
-                            <li><a href="OverheadCosts" target="_blank">Overhead Costs</a></li>
-                            <li><a href="PrivateLabel" target="_blank">Private Label</a></li>
-                        </ul>
-                    </div>
-                    <div class="sectlbrowse">
-                        <ul>
-                            <li><a href="ProductLifeCycle" target="_blank">Product Life Cycle</a></li>
-                            <li><a href="ProductPositioning" target="_blank">Product Positioning</a></li>
-                            <li><a href="ProfitMargin" target="_blank">Profit Margin</a></li>
-                            <li><a href="Prospecting" target="_blank">Prospecting</a></li>
-                            <li><a href="PurchaseOrder" target="_blank">Purchase Order</a></li>
-                            <li><a href="Retail" target="_blank">Retail</a></li>
-                            <li><a href="SmallBusiness" target="_blank">Small Business</a></li>
-                            <li><a href="SoleProprietorship" target="_blank">Sole Proprietorship</a></li>
-                            <li><a href="StockKeepingUnit(SKU)" target="_blank">Stock Keeping Unit(SKU)</a></li>
-                            <li><a href="SubchapterSCorporation(SCorp)"
-                                    target="_blank">Subchapter SCorporation(SCorp)</a></li>
-                            <li><a href="Tariff" target="_blank">Tariffc</a></li>
-                            <li><a href="TaxIdentificationNumber(TIN)" target="_blank">Tax Identification Number(TIN)</a>
-                            </li>
-                            <li><a href="TradeShow" target="_blank">Trade Show</a></li>
-                            <li><a href="UniqueSellingProposition(USP)"
-                                    target="_blank">Unique Selling Proposition (USP)</a></li>
-                            <li><a href="UniversalProductCode(UPC)" target="_blank">Universal Product Code(UPC)</a></li>
-                            <li><a href="WorkingCapital" target="_blank">Working Capital</a></li>
-                        </ul>
-                    </div>
-                </div>
+      <section>
+        <div class="sectionleft">
+          <div class="sectleft">
+            <p>
+              Use the topic list below to navigate Shopify’s business
+              encyclopedia. From retail and enterprise to branding and
+              entrepreneurship, you’ll find everything you need to know about
+              building a successful business. If you can’t find the topic you’re
+              looking for, use the search bar above for a list of relevant
+              articles.
+            </p>
+          </div>
+          <h4>POPULAR</h4>
+          <div class="sectleft">
+            <div class="">
+              <img src="./img/shopifyretail.png" alt="" />
             </div>
-            <div class="sectionright">
-                <div class="sectright align">
-                    <img src="./img/shopifynote.png" alt="" width="50px">
-                    <h3>Join 446,005 entrepreneurs who already have a head start.</h3>
-                    <h4>Get free online marketing tips and resources delivered directly to your inbox.</h4>
-                    <div class="update">
-                        <input type="text" name="searchbox" id="searchbox" placeholder="Email address">
-                        <input type="button" value="Get updates">
-                    </div>
-                    <h5>No charge. Unsubscribe anytime.</h5>
-                </div>
-
-                <div class="sectright">
-                    <h4>RESOURCES</h4>
-                        <ul>
-                            <li><a href="WhatisShopify?" target="_blank">What is Shopify?</a></li>
-                            <li id="green"><a href="LearnmoreabouttheShopifyplatform"
-                                    target="_blank">Learn more about the Shopify platform</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="Howtostartanonlinestore" target="_blank">How to start an online store</a></li>
-                            <li id="green"><a href="Step-by-stepguideforstartingup"
-                                    target="_blank">Step-by-step guide for starting up</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="Bestecommerceplatforms" target="_blank">Best ecommerce platforms</a></li>
-                            <li id="green"><a href="Findtherighttoolandstartselling"
-                                    target="_blank">Find the right tool and start selling</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="Smallbusinessideas" target="_blank">Small business ideas</a></li>
-                            <li id="green"><a href="Discoverprofitablebusinessideastoday"
-                                    target="_blank">Discover profitable business ideas today</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="Howtomakemoneyonline" target="_blank">How to make money online</a></li>
-                            <li id="green"><a href="Practicaladviceforearningasideincome"
-                                    target="_blank">Practical advice for earning a side income</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="Introductiontodropshipping" target="_blank">Introduction to dropshipping</a></li>
-                            <li id="green"><a href="Startmakingsaleswithoutinventory"
-                                    target="_blank">Start making sales without inventory</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="Introductiontoprintondemand" target="_blank">Introduction to print on demand</a>
-                            </li>
-                            <li id="green"><a href="Addcustomdesignstopopularproducts"
-                                    target="_blank">Add custom designs to popular products</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="HowtoStartaBusiness" target="_blank">How to Start a Business</a></li>
-                            <li id="green"><a href="Learnthe11StepstoStartaBusiness"
-                                    target="_blank">Learn the 11 Steps to Start a Business</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="StartanEcommerceBusiness" target="_blank">Start an Ecommerce Business</a></li>
-                            <li id="green"><a href="Practicalstepsforstartingabusinessfromscratch"
-                                    target="_blank">Practical steps for starting a business from scratch</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="TrendingProducts" target="_blank">Trending Products</a></li>
-                            <li id="green"><a href="Startabusinesssellingin-demandproducts"
-                                    target="_blank">Start a business selling in-demand products</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="HowtoSellonInstagram" target="_blank">How to Sell on Instagram</a></li>
-                            <li id="green"><a href="LearntoSellonInstagramShopping"
-                                    target="_blank">Learn to Sell on Instagram Shopping</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="StartaHomeBusiness" target="_blank">Start a Home Business</a></li>
-                            <li id="green"><a href="IdeasforHowtoStartaBusinessatHome"
-                                    target="_blank">Ideas for How to Start a Business at Home</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="SalesChannels" target="_blank">Sales Channels</a></li>
-                            <li id="green"><a href="HowtoBuildaSalesChannelStrategy"
-                                    target="_blank">How to Build a Sales Channel Strategy</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="OnlineBusinessIdeas" target="_blank">Online Business Ideas</a></li>
-                            <li id="green"><a href="IdeasforHowtoStartaBusinessOnline"
-                                    target="_blank">Ideas for How to Start a Business Online</a></li>
-                        </ul>
-                </div>
+            <div class="sectimg">
+              <img src="./img/shopifymechandise.png" alt="" />
+              <img src="./img/shopifyentreprenurship.png" alt="" />
             </div>
-        </section>
-
-
-        <div class="email">
-            <div class="emailleft">
-                <h1>Start your 14-day free trial today!</h1>
+          </div>
+          <div class="sectleft">
+            <img src="./img/shopifysole.png" alt="" />
+            <img src="./img/shopifyinventory.png" alt="" />
+            <img src="./img/shopifybranding.png" alt="" />
+          </div>
+          <h4>FEATURED</h4>
+          <div class="sectleft">
+            <div class="sectleftone">
+              <div class="sectleft1">
+                <h3>Enterprise Resource Planning (ERP)</h3>
+                <p>
+                  ERP is a comprehensive software platform used to help a
+                  business run more efficiently and effectively by automating
+                  core processes.
+                </p>
+              </div>
+              <div class="sectleft1">
+                <h3>Business License</h3>
+                <p>
+                  A business license grants the owner the right to start and run
+                  a business.
+                </p>
+              </div>
+              <div class="sectleft1">
+                <h3>Stock Keeping Unit (SKU)</h3>
+                <p>
+                  A SKU is a unique code consisting of letters and numbers that
+                  identify characteristics about each product.
+                </p>
+              </div>
             </div>
-            <div class="emailright">
-                <input type="text" name="searchbox" id="searchbox" placeholder="Enter your email address">
-                <input type="button" value="Start free trial">
-                <h3>
-                    Try Shopify free for 14 days, no credit card required. By entering your email, <br>
-                    you agree to receive marketing emails from Shopify.
-                </h3>
+            <div class="sectleftone">
+              <div class="sectleft1">
+                <h3>Unique Selling Proposition (USP)</h3>
+                <p>
+                  A unique selling proposition, more commonly referred to as a
+                  USP, is the one thing that makes your business better than the
+                  competition.
+                </p>
+              </div>
+              <div class="sectleft1">
+                <h3>Manufacturing</h3>
+                <p>
+                  Manufacturing is the making of goods by hand or by machine
+                  that upon completion the business sells to a customer.
+                </p>
+              </div>
+              <div class="sectleft1">
+                <h3>Crowdfunding</h3>
+                <p>
+                  Crowdfunding is the process of raising money for a business,
+                  project, or charitable cause from many individual donors – the
+                  crowd.
+                </p>
+              </div>
             </div>
+          </div>
+          <h4>BROWSE MORE POPULAR TOPICS</h4>
+          <div class="sectleft">
+            <div class="sectlbrowse">
+              <ul>
+                <li><a href="AnchorStore" target="_blank">Anchor Store</a></li>
+                <li>
+                  <a href="BarriertoEntry" target="_blank">Barrier to Entry</a>
+                </li>
+                <li><a href="BrandEquity" target="_blank">Brand Equity</a></li>
+                <li><a href="Branding" target="_blank">Branding</a></li>
+                <li>
+                  <a href="BusinessOperations" target="_blank"
+                    >Business Operations</a
+                  >
+                </li>
+                <li>
+                  <a href="BusinessProposal" target="_blank"
+                    >Busines sProposal</a
+                  >
+                </li>
+                <li>
+                  <a href="CashFlowStatement" target="_blank"
+                    >Cas Flow Statement</a
+                  >
+                </li>
+                <li>
+                  <a href="CompetitiveAnalysis" target="_blank"
+                    >Competitive Analysis</a
+                  >
+                </li>
+                <li>
+                  <a href="ConversationalCommerce" target="_blank"
+                    >Conversational Commerce</a
+                  >
+                </li>
+                <li>
+                  <a href="DirectMarketing" target="_blank">Direct Marketing</a>
+                </li>
+                <li>
+                  <a href="DistributionChannel" target="_blank"
+                    >DistributionChannel</a
+                  >
+                </li>
+                <li>
+                  <a href="DoingBusinessAs(DBA)" target="_blank"
+                    >Doing Business As(DBA)</a
+                  >
+                </li>
+                <li>
+                  <a href="EmployerIdentificationNumber(EIN)" target="_blank"
+                    >Employer Identification Number(EIN)</a
+                  >
+                </li>
+                <li>
+                  <a href="EnterpriseResourcePlanning(ERP)" target="_blank"
+                    >Enterprise Resource Planning(ERP)</a
+                  >
+                </li>
+                <li>
+                  <a href="FOBShippingPoint" target="_blank"
+                    >FOB Shipping Point</a
+                  >
+                </li>
+                <li>
+                  <a href="GreenMarketing" target="_blank">Green Marketing</a>
+                </li>
+                <li><a href="GrossProfit" target="_blank">Gross Profit</a></li>
+              </ul>
+            </div>
+            <div class="sectlbrowse">
+              <ul>
+                <li>
+                  <a href="HumanResources(HR)" target="_blank"
+                    >Human Resources(HR)</a
+                  >
+                </li>
+                <li>
+                  <a href="InventoryTurnover" target="_blank"
+                    >Inventory Turn over</a
+                  >
+                </li>
+                <li>
+                  <a href="LimitedLiabilityCompany(LLC)" target="_blank"
+                    >Limited Liability Company(LLC)</a
+                  >
+                </li>
+                <li><a href="Logistics" target="_blank">Logistics</a></li>
+                <li>
+                  <a href="Manufacturing" target="_blank">Manufacturing</a>
+                </li>
+                <li>
+                  <a href="MarginalCost" target="_blank">Marginal Cost</a>
+                </li>
+                <li>
+                  <a href="MarketResearch" target="_blank">Market Research</a>
+                </li>
+                <li>
+                  <a href="MarketSegmentation" target="_blank"
+                    >Market Segmentation</a
+                  >
+                </li>
+                <li>
+                  <a href="Merchandising" target="_blank">Merchandising</a>
+                </li>
+                <li><a href="NicheMarket" target="_blank">Niche Market</a></li>
+                <li>
+                  <a href="Odd-EvenPricing" target="_blank">Odd-Even Pricing</a>
+                </li>
+                <li>
+                  <a href="OperatingExpenses" target="_blank"
+                    >Operating Expenses</a
+                  >
+                </li>
+                <li>
+                  <a href="OpportunityCost" target="_blank">Opportunity Cost</a>
+                </li>
+                <li>
+                  <a href="OutdoorAdvertising" target="_blank"
+                    >Outdoor Advertising</a
+                  >
+                </li>
+                <li>
+                  <a href="OverheadCosts" target="_blank">Overhead Costs</a>
+                </li>
+                <li>
+                  <a href="PrivateLabel" target="_blank">Private Label</a>
+                </li>
+              </ul>
+            </div>
+            <div class="sectlbrowse">
+              <ul>
+                <li>
+                  <a href="ProductLifeCycle" target="_blank"
+                    >Product Life Cycle</a
+                  >
+                </li>
+                <li>
+                  <a href="ProductPositioning" target="_blank"
+                    >Product Positioning</a
+                  >
+                </li>
+                <li>
+                  <a href="ProfitMargin" target="_blank">Profit Margin</a>
+                </li>
+                <li><a href="Prospecting" target="_blank">Prospecting</a></li>
+                <li>
+                  <a href="PurchaseOrder" target="_blank">Purchase Order</a>
+                </li>
+                <li><a href="Retail" target="_blank">Retail</a></li>
+                <li>
+                  <a href="SmallBusiness" target="_blank">Small Business</a>
+                </li>
+                <li>
+                  <a href="SoleProprietorship" target="_blank"
+                    >Sole Proprietorship</a
+                  >
+                </li>
+                <li>
+                  <a href="StockKeepingUnit(SKU)" target="_blank"
+                    >Stock Keeping Unit(SKU)</a
+                  >
+                </li>
+                <li>
+                  <a href="SubchapterSCorporation(SCorp)" target="_blank"
+                    >Subchapter SCorporation(SCorp)</a
+                  >
+                </li>
+                <li><a href="Tariff" target="_blank">Tariffc</a></li>
+                <li>
+                  <a href="TaxIdentificationNumber(TIN)" target="_blank"
+                    >Tax Identification Number(TIN)</a
+                  >
+                </li>
+                <li><a href="TradeShow" target="_blank">Trade Show</a></li>
+                <li>
+                  <a href="UniqueSellingProposition(USP)" target="_blank"
+                    >Unique Selling Proposition (USP)</a
+                  >
+                </li>
+                <li>
+                  <a href="UniversalProductCode(UPC)" target="_blank"
+                    >Universal Product Code(UPC)</a
+                  >
+                </li>
+                <li>
+                  <a href="WorkingCapital" target="_blank">Working Capital</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="storeup">
-            <a href="About" target="_blank">About</a>
-            <a href="Careers" target="_blank">Careers</a>
-            <a href="PressandMedia" target="_blank">Pressand Media</a>
-            <a href="ShopifyPlus" target="_blank">Shopify Plus</a>
-            <a href="Sitemap" target="_blank">Sitemap</a>
+        <div class="sectionright">
+          <div class="sectright align">
+            <img src="./img/shopifynote.png" alt="" width="50px" />
+            <h3>Join 446,005 entrepreneurs who already have a head start.</h3>
+            <h4>
+              Get free online marketing tips and resources delivered directly to
+              your inbox.
+            </h4>
+            <div class="update">
+              <input
+                type="text"
+                name="searchbox"
+                id="searchbox"
+                placeholder="Email address"
+              />
+              <input type="button" value="Get updates" />
+            </div>
+            <h5>No charge. Unsubscribe anytime.</h5>
+          </div>
 
+          <div class="sectright">
+            <h4>RESOURCES</h4>
+            <ul>
+              <li>
+                <a href="WhatisShopify?" target="_blank">What is Shopify?</a>
+              </li>
+              <li id="green">
+                <a href="LearnmoreabouttheShopifyplatform" target="_blank"
+                  >Learn more about the Shopify platform</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="Howtostartanonlinestore" target="_blank"
+                  >How to start an online store</a
+                >
+              </li>
+              <li id="green">
+                <a href="Step-by-stepguideforstartingup" target="_blank"
+                  >Step-by-step guide for starting up</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="Bestecommerceplatforms" target="_blank"
+                  >Best ecommerce platforms</a
+                >
+              </li>
+              <li id="green">
+                <a href="Findtherighttoolandstartselling" target="_blank"
+                  >Find the right tool and start selling</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="Smallbusinessideas" target="_blank"
+                  >Small business ideas</a
+                >
+              </li>
+              <li id="green">
+                <a href="Discoverprofitablebusinessideastoday" target="_blank"
+                  >Discover profitable business ideas today</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="Howtomakemoneyonline" target="_blank"
+                  >How to make money online</a
+                >
+              </li>
+              <li id="green">
+                <a href="Practicaladviceforearningasideincome" target="_blank"
+                  >Practical advice for earning a side income</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="Introductiontodropshipping" target="_blank"
+                  >Introduction to dropshipping</a
+                >
+              </li>
+              <li id="green">
+                <a href="Startmakingsaleswithoutinventory" target="_blank"
+                  >Start making sales without inventory</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="Introductiontoprintondemand" target="_blank"
+                  >Introduction to print on demand</a
+                >
+              </li>
+              <li id="green">
+                <a href="Addcustomdesignstopopularproducts" target="_blank"
+                  >Add custom designs to popular products</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="HowtoStartaBusiness" target="_blank"
+                  >How to Start a Business</a
+                >
+              </li>
+              <li id="green">
+                <a href="Learnthe11StepstoStartaBusiness" target="_blank"
+                  >Learn the 11 Steps to Start a Business</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="StartanEcommerceBusiness" target="_blank"
+                  >Start an Ecommerce Business</a
+                >
+              </li>
+              <li id="green">
+                <a
+                  href="Practicalstepsforstartingabusinessfromscratch"
+                  target="_blank"
+                  >Practical steps for starting a business from scratch</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="TrendingProducts" target="_blank">Trending Products</a>
+              </li>
+              <li id="green">
+                <a href="Startabusinesssellingin-demandproducts" target="_blank"
+                  >Start a business selling in-demand products</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="HowtoSellonInstagram" target="_blank"
+                  >How to Sell on Instagram</a
+                >
+              </li>
+              <li id="green">
+                <a href="LearntoSellonInstagramShopping" target="_blank"
+                  >Learn to Sell on Instagram Shopping</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="StartaHomeBusiness" target="_blank"
+                  >Start a Home Business</a
+                >
+              </li>
+              <li id="green">
+                <a href="IdeasforHowtoStartaBusinessatHome" target="_blank"
+                  >Ideas for How to Start a Business at Home</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="SalesChannels" target="_blank">Sales Channels</a>
+              </li>
+              <li id="green">
+                <a href="HowtoBuildaSalesChannelStrategy" target="_blank"
+                  >How to Build a Sales Channel Strategy</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="OnlineBusinessIdeas" target="_blank"
+                  >Online Business Ideas</a
+                >
+              </li>
+              <li id="green">
+                <a href="IdeasforHowtoStartaBusinessOnline" target="_blank"
+                  >Ideas for How to Start a Business Online</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="stores">
-            <div class="store">
-                <ul>
-                    <li><a href="ONLINESTORE" target="_blank">ONLINE STORE</a></li>
-                    <li><a href="Sellonline" target="_blank">Sell online</a></li>
-                    <li><a href="Examples" target="_blank">Examples</a></li>
-                    <li><a href="Websitebuilder" target="_blank">Website builder</a></li>
-                    <li><a href="Onlineretail" target="_blank">Online retail</a></li>
-                </ul>
-            </div>
-            <div class="store">
-                <ul>
-                    <li><a href="Ecommercewebsite" target="_blank">Ecommerce website</a></li>
-                    <li><a href="Domainnames" target="_blank">Domain names</a></li>
-                    <li><a href="Shoppingcart" target="_blank">Shopping cart</a></li>
-                    <li><a href="Ecommercehosting" target="_blank">Ecommerce hosting</a></li>
-                </ul>
-            </div>
-            <div class="store">
-                <ul>
-                    <li><a href="Mobilecommerce" target="_blank">Mobile commerce</a></li>
-                    <li><a href="Onlinestorebuilder" target="_blank">Online store builder</a></li>
-                    <li><a href="DropshippingBusiness" target="_blank">Drop shipping Business</a></li>
-                    <li><a href="Storethemes" target="_blank">Store themes</a></li>
-                </ul>
-            </div>
-            <div class="store">
-                <ul>
-                    <li><a href="POINTOFSALE" target="_blank">POINT OF SALE</a></li>
-                    <li><a href="Pointofsale" target="_blank">Point of sale</a></li>
-                    <li><a href="Features" target="_blank">Features</a></li>
-                </ul>
-            </div>
-            <div class="store">
-                <ul>
-                    <li><a href="SUPPORT" target="_blank">SUPPORT</a></li>
-                    <li><a href="24/7support" target="_blank">24/7 support</a></li>
-                    <li><a href="ShopifyHelpCenter" target="_blank">Shopify Help Center</a></li>
-                    <li><a href="ShopifyCommunity" target="_blank">Shopify Community</a></li>
-                    <li><a href="APIdocumentation" target="_blank">API documentation</a></li>
-                    <li><a href="Freetools" target="_blank">Free tools</a></li>
-                    <li><a href="Freestockphotos" target="_blank">Free stock photos</a></li>
-                    <li><a href="Websitesforsale" target="_blank">Websites for sale</a></li>
-                    <li><a href="LogoMaker" target="_blank">Logo Maker</a></li>
-                    <li><a href="Businessnamegenerator" target="_blank">Business name generator</a></li>
-                    <li><a href="Research" target="_blank">Research</a></li>
-                    <li><a href="Legal" target="_blank">Legal</a></li>
-                </ul>
-            </div>
-            <div class="store">
-                <ul>
-                    <li><a href="SHOPIFY" target="_blank">SHOPIFY</a></li>
-                    <li><a href="Contact" target="_blank">Contact</a></li>
-                    <li><a href="Partnerprogram" target="_blank">Partner program</a></li>
-                    <li><a href="Affiliateprogram" target="_blank">Affiliate program</a></li>
-                    <li><a href="Appdevelopers" target="_blank">App developers</a></li>
-                    <li><a href="Investors" target="_blank">Investors</a></li>
-                    <li><a href="Blogtopics" target="_blank">Blogtopics</a></li>
-                    <li><a href="CommunityEvents" target="_blank">Community Events</a></li>
-                </ul>
-            </div>
-        </div>
-        <footer>
-            <div class="footleft">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-youtube"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-pinterest"></i>
-            </div>
-            <div class="footright">
-                <span>Terms of Service</span>
-                <span>Privacy Policy</span>
-                <span>Created By ROSHAN</span>
-            </div>
-        </footer>
+      </section>
 
+      <div class="email">
+        <div class="emailleft">
+          <h1>Start your 14-day free trial today!</h1>
+        </div>
+        <div class="emailright">
+          <input
+            type="text"
+            name="searchbox"
+            id="searchbox"
+            placeholder="Enter your email address"
+          />
+          <input type="button" value="Start free trial" />
+          <h3>
+            Try Shopify free for 14 days, no credit card required. By entering
+            your email, <br />
+            you agree to receive marketing emails from Shopify.
+          </h3>
+        </div>
+      </div>
+      <div class="storeup">
+        <a href="About" target="_blank">About</a>
+        <a href="Careers" target="_blank">Careers</a>
+        <a href="PressandMedia" target="_blank">Pressand Media</a>
+        <a href="ShopifyPlus" target="_blank">Shopify Plus</a>
+        <a href="Sitemap" target="_blank">Sitemap</a>
+      </div>
+      <div class="stores">
+        <div class="store">
+          <ul>
+            <li><a href="ONLINESTORE" target="_blank">ONLINE STORE</a></li>
+            <li><a href="Sellonline" target="_blank">Sell online</a></li>
+            <li><a href="Examples" target="_blank">Examples</a></li>
+            <li>
+              <a href="Websitebuilder" target="_blank">Website builder</a>
+            </li>
+            <li><a href="Onlineretail" target="_blank">Online retail</a></li>
+          </ul>
+        </div>
+        <div class="store">
+          <ul>
+            <li>
+              <a href="Ecommercewebsite" target="_blank">Ecommerce website</a>
+            </li>
+            <li><a href="Domainnames" target="_blank">Domain names</a></li>
+            <li><a href="Shoppingcart" target="_blank">Shopping cart</a></li>
+            <li>
+              <a href="Ecommercehosting" target="_blank">Ecommerce hosting</a>
+            </li>
+          </ul>
+        </div>
+        <div class="store">
+          <ul>
+            <li>
+              <a href="Mobilecommerce" target="_blank">Mobile commerce</a>
+            </li>
+            <li>
+              <a href="Onlinestorebuilder" target="_blank"
+                >Online store builder</a
+              >
+            </li>
+            <li>
+              <a href="DropshippingBusiness" target="_blank"
+                >Drop shipping Business</a
+              >
+            </li>
+            <li><a href="Storethemes" target="_blank">Store themes</a></li>
+          </ul>
+        </div>
+        <div class="store">
+          <ul>
+            <li><a href="POINTOFSALE" target="_blank">POINT OF SALE</a></li>
+            <li><a href="Pointofsale" target="_blank">Point of sale</a></li>
+            <li><a href="Features" target="_blank">Features</a></li>
+          </ul>
+        </div>
+        <div class="store">
+          <ul>
+            <li><a href="SUPPORT" target="_blank">SUPPORT</a></li>
+            <li><a href="24/7support" target="_blank">24/7 support</a></li>
+            <li>
+              <a href="ShopifyHelpCenter" target="_blank"
+                >Shopify Help Center</a
+              >
+            </li>
+            <li>
+              <a href="ShopifyCommunity" target="_blank">Shopify Community</a>
+            </li>
+            <li>
+              <a href="APIdocumentation" target="_blank">API documentation</a>
+            </li>
+            <li><a href="Freetools" target="_blank">Free tools</a></li>
+            <li>
+              <a href="Freestockphotos" target="_blank">Free stock photos</a>
+            </li>
+            <li>
+              <a href="Websitesforsale" target="_blank">Websites for sale</a>
+            </li>
+            <li><a href="LogoMaker" target="_blank">Logo Maker</a></li>
+            <li>
+              <a href="Businessnamegenerator" target="_blank"
+                >Business name generator</a
+              >
+            </li>
+            <li><a href="Research" target="_blank">Research</a></li>
+            <li><a href="Legal" target="_blank">Legal</a></li>
+          </ul>
+        </div>
+        <div class="store">
+          <ul>
+            <li><a href="SHOPIFY" target="_blank">SHOPIFY</a></li>
+            <li><a href="Contact" target="_blank">Contact</a></li>
+            <li>
+              <a href="Partnerprogram" target="_blank">Partner program</a>
+            </li>
+            <li>
+              <a href="Affiliateprogram" target="_blank">Affiliate program</a>
+            </li>
+            <li><a href="Appdevelopers" target="_blank">App developers</a></li>
+            <li><a href="Investors" target="_blank">Investors</a></li>
+            <li><a href="Blogtopics" target="_blank">Blogtopics</a></li>
+            <li>
+              <a href="CommunityEvents" target="_blank">Community Events</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <footer>
+        <div class="footleft">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-pinterest"></i>
+        </div>
+        <div class="footright">
+          <span>Terms of Service</span>
+          <span>Privacy Policy</span>
+          <span>Created By ROSHAN</span>
+        </div>
+      </footer>
     </div>
-</body>
 
+    <script src="js/main.js"></script>
+  </body>
 </html>

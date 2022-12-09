@@ -164,7 +164,8 @@ section {
     flex-wrap: wrap;
     justify-content: center;
 }
-.sectimg{
+
+.sectimg {
     display: flex;
     flex-direction: column;
 }
@@ -423,6 +424,10 @@ footer {
         text-align: left;
     }
 
+    .nav ul {
+        padding: 0;
+    }
+
     .nav ul li {
         margin: 10px;
         padding: 0px;
@@ -430,6 +435,7 @@ footer {
 
     .nav ul button {
         padding: 5px;
+        font-size: small;
     }
 
     .search {
