@@ -449,6 +449,14 @@ footer {
         width: auto;
     }
 
+    .sectleft img {
+        width: 100%;
+    }
+
+    .update input[type='button'] {
+        width: 90%;
+    }
+
     .storeup {
         text-align: center;
     }
